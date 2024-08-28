@@ -1,4 +1,4 @@
-# Prject: poc_rag_blv
+# Project: poc_rag_blv
 
 The project has two main objectives:
 
@@ -7,3 +7,8 @@ The project has two main objectives:
 
 ## Data
 The data is in the __Actes__ folder, but its contents aren't included in the git repo. You'll have to get it from another source.
+
+## py_rag
+RAG part of the POC.
+
+see ./py_rag/README.md 
