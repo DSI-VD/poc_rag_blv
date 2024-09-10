@@ -1,0 +1,6 @@
+DateTime==5.5
+elementpath==4.5.0
+pytz==2024.1
+setuptools==74.1.2
+xmlschema==3.3.2
+zope.interface==7.0.3
