@@ -1,18 +1,7 @@
-
 tasks:
   - name: py_rag setup
-    before: | 
-      pushd py_rag/
+    before: pushd py_rag/
     init: python -m venv venv
-    command: |
+    command: >
       pip install -r requirements.txt
       popd
-
-# List the ports to expose. Learn more: https://www.gitpod.io/docs/configure/workspaces/ports
-ports:
-  - name: Frontend
-    description: Port 3000 for the frontend
-    port: 3000
-    onOpen: open-preview
-
-# Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
