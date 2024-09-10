@@ -15,4 +15,4 @@ see ./py_rag/README.md
 
 ## Ready-to-use development environment
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#[https://github.com/DSI-VD/poc_rag_blv])
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/DSI-VD/poc_rag_blv)
