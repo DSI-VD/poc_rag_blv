@@ -8,10 +8,16 @@ The project has two main objectives:
 ## Data
 The data is in the __Actes__ folder, but its contents aren't included in the git repo. You'll have to get it from another source.
 
+### get the data
+
+Use `./getActes.bash {key}`
+
+Ask iLab for key value
+
 ## py_rag
 RAG part of the POC.
 
-see ./py_rag/README.md 
+see ./py_rag/README.md
 
 ## Ready-to-use development environment
 
