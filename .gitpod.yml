@@ -1,7 +1,16 @@
+# Docs https://www.gitpod.io/docs/references/gitpod-yml
 tasks:
   - name: py_rag setup
     before: pushd py_rag/
     init: python -m venv venv
-    command: >
+    command: |
       pip install -r requirements.txt
       popd
+vscode:
+    extensions:
+        - ms-python.python
+        - ms-python.debugpy
+        - redhat.vscode-yaml
+        - dotjoshjohnson.xml
+        - danielsanmedium.dscodegpt
+        - ms-toolsai.jupyter
