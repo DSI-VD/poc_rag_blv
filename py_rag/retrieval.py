@@ -76,16 +76,3 @@ if __name__ == "__main__":
     for key in last_actes :
         file = f'{key}/{last_actes[key][0]}'
         extract_chunks(file)
-    
-
-
-    """
-    xsd_doc = 'akomantoso30.xsd'
-    for key in last_actes :
-        xsd_doc = 'akomantoso30.xsd'    
-        json = xmlschema.to_json(xml_document=f'{key}/{last_actes[key][0]}',schema=xsd_doc,validation='skip')
-        with open(f'./json/{last_actes[key][0][:-3]}json', 'w') as file:
-            file.write(json)
-
-    #print(len(last_actes))
-    """
