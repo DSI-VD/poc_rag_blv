@@ -309,3 +309,17 @@ with table and attachment
 </akomaNtoso>
 ```
 </details>
+
+# xPath
+
+## Extraction of doc. references
+
+* `//preface/p/docType/text()` → _RÈGLEMENT_
+* `//preface/p/docNumber/text()` →  _172.215.1_
+* `//preface/p/docTitle/text()` → _sur les départements de l'administration_
+* `//preface/p/shortTitle/text()` → _(RdéA)_
+
+## Extract legal articles and tests by article == chunk
+
+1. `//body//article`
+1. ``
