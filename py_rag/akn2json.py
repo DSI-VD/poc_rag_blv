@@ -41,7 +41,7 @@ def extract_metadata(xml: ET, filename: str) -> None | DocumentMetadata:
     return None if kind is None else {
         "kind": kind,
         "number": unique_tag_text(xml, "docNumber"),
-        "fulltitle": f"{kind} {unique_tag_text(xml, "docTitle")}",
+        "fulltitle": f"""{kind} {unique_tag_text(xml, "docTitle")}""",
         "shortitle": unique_tag_text(xml, "shortTitle"),
         "filename": filename
     }
